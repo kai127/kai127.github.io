@@ -1,70 +1,126 @@
-<!DOCTYPE html>
-<html>
+  
+* {
+  box-sizing: border-box;
+}
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ある男の部屋</title>
-<body>
-<header>
-  <div class="header-left">WELCOME</div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <p>ここには僕がやっていることが集まっています。<br>メインはサッカー、スニーカーなどの趣味。それだけでなく、日常生活や勉強についても</p>
-      <a href="https://twitter.com/127foot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @127foot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>What I am Doing </h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>SOCCER</p>
-          </div>
-          <p class="text-contents">主にプレミアリーグについて考察。オフシーズンも休まず活動。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>SNEAKERS</p>
-          </div>
-          <p class="text-contents">僕のスニーカーコレクションやスニーカー遍歴、ケアの方法まで</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>DAYLYLIFE</p>
-          </div>
-          <p class="text-contents">趣味以外では何をしているのか</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>STUDY</p>
-          </div>
-          <p class="text-contents">TOEICや英語をはじめ、数学などの勉強法やモチベーション維持の方法。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2></h2>
-      </div>
-      <a href="http://blog.hatena.ne.jp/gazzy66/https:/gazzy66.hatenablog.com/subscribe" target="_blank">読者になるにはこちら</a>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <p>最後までご覧いただきありがとうございます。</p>
-    </div>
-  </footer>
-</body>
-</html>
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+header{height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;}
+.top-wrapper{ padding: 180px 0 100px 0;
+  background-image: url(top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-warpper p {
+opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.twitter-follow-button{
+  width:200px;
+ height:35px; 
+}
+.lesson-warpper{
+height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center; 
+}
+.heading h2 {
+  font-weight:normal;
+}
+.lesson {
+  float:left;
+  width:25%;
+}
+.lesson-icon {
+  position:relative;
+}
+.lesson-icon p {
+position: absolute;
+  top: 37%;
+  width: 100%;
+  color: white;
+}
+.text-content {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+
+.clear {
+  clear: left;
+}
+
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .lesson-wrapper {
+    height: 990px;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  .lesson-wrapper {
+    height: 1700px;
+  }
+
+  .message-wrapper .btn {
+    width: 100%;
+  }
