@@ -1,3 +1,4 @@
+  
 * {
   box-sizing: border-box;
 }
@@ -62,13 +63,7 @@ position: absolute;
   font-size: 13px;
   color: #b3aeb5;
 }
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
+
 
 .clear {
   clear: left;
@@ -104,17 +99,7 @@ position: absolute;
     display: none;
   }
 
-  .menu-icon {
-    display: block;
-  }
-
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  .twitter {
-    margin-top: 10px;
-  }
+  
 
   .top-wrapper {
     text-align: left;
@@ -139,4 +124,3 @@ position: absolute;
   .message-wrapper .btn {
     width: 100%;
   }
-}
