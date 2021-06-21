@@ -19,7 +19,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
+  background-image: url();
   background-size: cover;
   color: white;
   text-align: center;
@@ -45,34 +45,18 @@ a {
   margin-bottom: 20px;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
+.container a {
   background-color: #55acee;
 }
 
-.btn {
+.twitter-follow-button {
   padding: 8px 24px;
   color: white;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
+  
 }
 
 header {
