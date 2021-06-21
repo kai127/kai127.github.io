@@ -108,7 +108,7 @@ height: 580px;
   .heading h2 {
     font-size: 20px;
   }
-}
+
 
 @media all and (max-width: 670px) {
   .header-right {
