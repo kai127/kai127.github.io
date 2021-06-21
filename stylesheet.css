@@ -88,14 +88,17 @@ height: 580px;
   .lesson-wrapper {
     height: 990px;
   }
-  .message-wrapper{
+  .container{
     text-align:center;
   } 
 
   footer {
-    text-align: center;
+    background-color:black;
+    height:50px;
   }
-}
+  .container p {
+  color:white;
+  }
 
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
