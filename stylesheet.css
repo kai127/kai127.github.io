@@ -11,13 +11,15 @@ body {
 a {
   text-decoration: none;
 }
-.header-left{
+.header-left{　
+  color:white;
   height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
   top: 0;
   z-index: 10;}
+
 .top-wrapper{ padding: 180px 0 100px 0;
   background-image: url(top.png);
   background-size: cover;
@@ -53,12 +55,12 @@ height: 580px;
 }
 .lesson-icon p {
 position: absolute;
-  top: 37%;
+  top: 40%;
   width: 100%;
   color: white;
 }
 .text-content {
-  width: 80%;
+  width: 75%;
   display: inline-block;
   margin-top: 15px;
   font-size: 13px;
