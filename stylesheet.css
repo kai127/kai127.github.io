@@ -10,7 +10,7 @@ body {
 a {
   text-decoration: none;
 }
- header{
+header{
   height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
@@ -19,6 +19,12 @@ a {
   z-index: 10;}
 .header-left{
   flaot:left;
+    height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 
 }
 
@@ -36,24 +42,10 @@ a {
   text-align: center;
 }
 
-.top-wrapper h1 {
+.top-wrapper p{
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
-
-.btn-wrapper {
-  text-align: center;
-}
-
-.btn-wrapper p {
-  margin-bottom: 20px;
 }
 
 .container a {
