@@ -11,7 +11,7 @@ body {
 a {
   text-decoration: none;
 }
-.header-left{　
+.header{　
   color : white;
   height: 65px;
   width: 100%;
@@ -19,7 +19,7 @@ a {
   position :fixed;
   top: 0;
   z-index: 10;}
-
+.header-left{color:white;}
 .top-wrapper{ padding: 180px 0 100px 0;
   background-image: url(top.png);
   background-size: cover;
@@ -55,7 +55,7 @@ height: 580px;
 }
 .lesson-icon p {
 position: absolute;
-  top: 40%;
+  top: 37%;
   width: 100%;
   color: white;
 }
