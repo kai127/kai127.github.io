@@ -99,7 +99,7 @@ height: 580px;
   .container p {
   color:white;
   text-align:center;
-  }
+  }}
 
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
@@ -108,7 +108,7 @@ height: 580px;
 
   .heading h2 {
     font-size: 20px;
-  }
+  }}
 
 
 @media all and (max-width: 670px) {
@@ -140,4 +140,4 @@ height: 580px;
 
   .message-wrapper .btn {
     width: 100%;
-  }
+  }}
