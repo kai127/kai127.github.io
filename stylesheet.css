@@ -94,10 +94,11 @@ height: 580px;
 
   footer {
     background-color: black;
-    height: 50px;
+    height: 70px;
   }
   .container p {
   color:white;
+  text-align:center;
   }
 
 @media all and (max-width: 750px) {
