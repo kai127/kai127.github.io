@@ -7,7 +7,8 @@ body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
 }
-
+img {background-size:cover;
+}
 a {
   text-decoration: none;
 }
