@@ -72,7 +72,14 @@ height: 580px;
   font-size: 13px;
   color: #b3aeb5;
 }
-
+ footer {
+    background-color: black;
+    height: 70px;
+  }
+  .container p {
+  color:white;
+  text-align:center;
+  }
 
 .clear {
   clear: left;
@@ -139,4 +146,12 @@ height: 580px;
 
   .message-wrapper .btn {
     width: 100%;
+  }
+ footer {
+    background-color: black;
+    height: 70px;
+  }
+  .container p {
+  color:white;
+  text-align:center;
   }}
